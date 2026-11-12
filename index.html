@@ -4,35 +4,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rove &amp; Co. Field Notes</title>
+  <!--The STYESHEET AND THE MEDIA QUERIES FOR RESPONSIVENESS-->
   <style>
     @media only screen and (max-width:600px) {
-      .container { width:100% !important; }
-      .col { width:100% !important; display:block !important; box-sizing:border-box !important; }
-      .flex-img { width:100% !important; height:auto !important; }
+      .container { width:100% !important; } /*THIS MAKES THE CONTAINER FLUID ON SMALL SCREENS*/
+      .col { width:100% !important; display:block !important; box-sizing:border-box !important; } /* MAKE THE CARDS STACK*/
+      .flex-img { width:100% !important; height:auto !important; } /* STOPS THE IMAGES FROM OVERFLOWING*/
       .headline { font-size:24px !important; line-height:1.25 !important; }
       .body-copy { font-size:16px !important; line-height:1.6 !important; }
       .pad { padding:20px !important; }
     }
   </style>
+  <!--END OF THE STYESHEET AND THE MEDIA QUERIES FOR RESPONSIVENESS-->
 </head>
 <body style="margin:0; padding:0; background-color:#f2f4f6;">
   <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#f2f4f6;">
-    TODO: write your preview text
+    Why we pulled the three season shell, plus a boot that survived Iceland
   </div>
+  <!--THE FULL WIDTH TABLE FOR THE EMAIL-->
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f2f4f6;">
     <tr>
       <td align="center" style="padding:24px 12px;">
+        <!--THE CONTAINER FOR THE EMAIL-->
         <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; margin:0 auto; background-color:#ffffff;">
+            <!--THE MASHHEAD BRANd NAME-->
           <tr>
             <td bgcolor="#1b1f24" style="background-color:#1b1f24; padding:24px 32px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:20px; font-weight:bold; letter-spacing:2px; color:#ffffff;">
               ROVE
             </td>
           </tr>
+
+          <!--START OF THE MASHHEAD-->
+
+          <!--END OF THE MASHHEAD BRAND NAME-->
+
+          <!--THE MASHHEAD  ISSUE LINE-->
           <tr>
             <td bgcolor="#f2f4f6" style="background-color:#f2f4f6; padding:12px 32px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:12px; letter-spacing:1px; color:#6b7280;">
               Field Notes, Issue 12
             </td>
           </tr>
+            <!--END OF MASHHEAD THE ISSUE LINE-->
+
+            <!--THE MASHHEAD NAV ROW-->
           <tr>
             <td align="center" style="padding:14px 24px; border-bottom:1px solid #e5e7eb; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:13px;">
               <a href="https://example.com/gear" style="color:#1b1f24; text-decoration:none; padding:0 10px;">Gear</a>
@@ -40,11 +54,22 @@
               <a href="https://example.com/trips" style="color:#1b1f24; text-decoration:none; padding:0 10px;">Trips</a>
             </td>
           </tr>
+          <!--END OF THE MASHHEAD NAV ROW-->
+
+          <!--END OF THE MASHHEAD-->
+
+
+          <!--THE ROW FOR THE FEATURED CARD-->
           <tr>
             <td style="padding:0;">
               <img class="flex-img" src="https://picsum.photos/seed/rove-shell/600/300" width="600" height="300" alt="A rain shell hanging on a fence post above a grey fjord" style="display:block; width:100%; max-width:600px; height:auto; border:0;">
             </td>
           </tr>
+          <!--END OF THE ROW FOR THE FEATURED CARD-->
+
+
+          <!--START OF THE LEAD STORY-->
+          <!--START OF THE STORY ROW-->
           <tr>
             <td class="pad" style="padding:32px 32px 24px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;">
               <h1 class="headline" style="margin:0 0 12px; font-size:28px; line-height:1.25; color:#1b1f24;">We pulled the three-season shell</h1>
@@ -52,29 +77,46 @@
               <a href="https://example.com/field-notes/three-season-shell" style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#15a862; text-decoration:none;">Read the full story</a>
             </td>
           </tr>
+          <!--END OF THE STORY ROW-->
+
+          <!--END OF THE LEAD STORY-->
+
+
+          <!--START OF MUTED CAPSULES SECTION DIVIDER-->
           <tr>
             <td style="padding:0 32px 4px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:12px; letter-spacing:1px; color:#6b7280;">
               ALSO IN THIS ISSUE
             </td>
           </tr>
+          <!--END OF MUTED CAPSULES SECTION DIVIDER-->
+
+          <!--START OF TWO COLUMN CARDS ROW-->
           <tr>
             <td style="padding:0;">
+                <!--STARTED OF NESTED TABLE FOR THE CARDS-->
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
                 <tr>
+                    <!--START OF THE LEFT CARD-->
                   <td class="col pad" width="300" valign="top" style="width:300px; padding:16px 16px 24px 32px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;">
                     <img class="flex-img" src="https://picsum.photos/seed/rove-boots/252/150" width="252" height="150" alt="Leather hiking boots caked in black volcanic sand" style="display:block; width:100%; height:auto; border:0; margin:0 0 12px;">
                     <h3 style="margin:0 0 8px; font-size:16px; line-height:1.3; color:#1b1f24;">A boot that survived Iceland</h3>
                     <p class="body-copy" style="margin:0; font-size:14px; line-height:1.6; color:#6b7280;">Six days on volcanic sand, one river crossing a day, and the sole is still attached. We asked the person wearing them what finally wore out.</p>
                   </td>
+                  <!--END OF THE LEFT CARD-->
+
+                  <!--START OF THE RIGHT CARD-->
                   <td class="col pad" width="300" valign="top" style="width:300px; padding:16px 32px 24px 16px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;">
                     <img class="flex-img" src="https://picsum.photos/seed/rove-carryon/252/150" width="252" height="150" alt="A carry on bag open on a hotel bed with clothes rolled inside" style="display:block; width:100%; height:auto; border:0; margin:0 0 12px;">
                     <h3 style="margin:0 0 8px; font-size:16px; line-height:1.3; color:#1b1f24;">The carry on rule nobody follows</h3>
                     <p class="body-copy" style="margin:0; font-size:14px; line-height:1.6; color:#6b7280;">Airlines measure the wheels. Most bags sold as carry on are two centimetres over once you count them.</p>
                   </td>
+                  <!--END OF THE RIGHT CARD-->
                 </tr>
               </table>
+              <!--END OF NESTED TABLE FOR THE CARDS-->
             </td>
           </tr>
+          <!--END OF TWO COLUMN CARDS ROW-->
           <tr>
             <td style="padding:8px 32px 0; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:12px; letter-spacing:1px; color:#6b7280;">
               SHORT LINKS
@@ -122,8 +164,10 @@
             </td>
           </tr>
         </table>
+        <!--END OF THE CONTAINER FOR THE EMAIL-->
       </td>
     </tr>
   </table>
+  <!--END OF THE FULL WIDTH TABLE FOR THE EMAIL-->
 </body>
 </html>
