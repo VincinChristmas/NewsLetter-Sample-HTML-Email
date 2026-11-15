@@ -10,8 +10,8 @@
       .container { width:100% !important; } /*THIS MAKES THE CONTAINER FLUID ON SMALL SCREENS*/
       .col { width:100% !important; display:block !important; box-sizing:border-box !important; } /* MAKE THE CARDS STACK*/
       .flex-img { width:100% !important; height:auto !important; } /* STOPS THE IMAGES FROM OVERFLOWING*/
-      .headline { font-size:24px !important; line-height:1.25 !important; }
-      .body-copy { font-size:16px !important; line-height:1.6 !important; }
+      .headline { font-size:24px !important; line-height:1.25 !important; } /*SIZES THE HEADLINE FOR A PHONE*/
+      .body-copy { font-size:16px !important; line-height:1.6 !important; } /*RESIZES SOME TEXT/PARAGRAPHS IN THE BODY */
       .pad { padding:20px !important; }
     }
   </style>
@@ -117,11 +117,18 @@
             </td>
           </tr>
           <!--END OF TWO COLUMN CARDS ROW-->
+
+          <!--START OF SHORT LINKS ROW-->
+
+          <!--THE LABLE FOR THE LINKS-->
           <tr>
             <td style="padding:8px 32px 0; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:12px; letter-spacing:1px; color:#6b7280;">
               SHORT LINKS
             </td>
           </tr>
+          <!--END OF THE LABEL FOR THE LINKS-->
+
+          <!--START OF THE CONTAINER FOR THE LIST-->
           <tr>
             <td class="pad" style="padding:8px 32px 24px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;">
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
@@ -143,6 +150,11 @@
               </table>
             </td>
           </tr>
+          <!--END OF THE CONTAINER FOR THE LIST-->
+
+          <!--END OF SHORT LINKS ROW-->
+
+          <!--THE START OF THE ICONS ROW-->
           <tr>
             <td align="center" bgcolor="#f2f4f6" style="background-color:#f2f4f6; padding:20px 32px;">
               <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
@@ -154,6 +166,9 @@
               </table>
             </td>
           </tr>
+          <!--THE END OF THE ICONS ROW-->
+
+<!--START OF THE FOOTER-->
           <tr>
             <td class="pad" style="border-top:1px solid #e5e7eb; padding:24px 32px; font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size:12px; line-height:1.7; color:#6b7280;">
               Rove &amp; Co., 128 Harbor Way, Portland, OR 97201<br>
@@ -163,6 +178,8 @@
               <a href="https://example.com/view-in-browser" style="color:#6b7280; text-decoration:underline;">View in browser</a>
             </td>
           </tr>
+          <!--END OF THE FOOTER-->
+
         </table>
         <!--END OF THE CONTAINER FOR THE EMAIL-->
       </td>
